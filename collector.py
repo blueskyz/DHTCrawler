@@ -155,9 +155,8 @@ class Collector(object):
                 continue
             show_interval = self._delay_interval
 
-            # 下载信息显示
-            show_content = ['torrents:']
             # 统计信息显示
+            show_content = ['torrents:']
             interval = time.time() - begin_time
             show_content.append('  pid: %s' % os.getpid())
             show_content.append('  time: %s' %
@@ -175,6 +174,8 @@ class Collector(object):
             show_content.append('  total torrent count: %d' %
                                 len(self._meta_list))
             show_content.append('\n')
+
+            # 存储运行状态到文件
             try:
                 with open(self._stat_file, 'wb') as f:
                     f.write('\n'.join(show_content))
@@ -183,6 +184,7 @@ class Collector(object):
             except Exception as err:
                 pass
 
+            # 测试是否到达退出时间
             if interval >= self._exit_time:
                 # stop
                 break
@@ -190,7 +192,7 @@ class Collector(object):
             # 每天结束备份结果文件
             self._backup_result()
 
-        # destory
+        # 销毁p2p客户端
         for session in self._sessions:
             torrents = session.get_torrents()
             for torrent in torrents:
@@ -210,5 +212,6 @@ if __name__ == '__main__':
     sd = Collector(session_nums=20,
                    result_file=result_file,
                    stat_file=stat_file)
+    # 创建p2p客户端
     sd.create_session(32900)
     sd.start_work()
