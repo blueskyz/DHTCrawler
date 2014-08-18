@@ -26,6 +26,7 @@ DHTCrawler
     2. python 2.7.3
     3. 安装 libtorrent 的 python 绑定库
     4. 安装 twisted 网络库
+    5. 开放防火墙的对应端口段，目前默认的是 32900--32920 (20是工作的p2p客户端数量)
 
 ### 运行方法
 
@@ -41,3 +42,4 @@ DHTCrawler
 ### 运行结果
 
     result.json 是收集的磁力链接结果文件，json格式，key是资源的info hash，value是资源的热度
+
