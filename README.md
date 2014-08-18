@@ -9,7 +9,7 @@ DHTCrawler
 
 ### collector.py dht网络爬虫脚本
 
-    抓取dht网络的磁力链接，使用 libtorrent 库开发。
+    抓取dht网络的磁力链接，使用 libtorrent 的python绑定库开发。
 
 ### collectord.py dht爬虫服务监控程序
 
@@ -20,21 +20,23 @@ DHTCrawler
 安装和使用方法
 --------------
 
-### 安装爬虫脚本
+### 运行环境
 
-    1. 安装 libtorrent 的 python 绑定库
-    2. 安装 twisted 网络库
-    3. 下载 collector.py collectord.py 文件到安装目录
+    1. linux 服务器
+    2. python 2.7.3
+    3. 安装 libtorrent 的 python 绑定库
+    4. 安装 twisted 网络库
 
 ### 运行方法
 
-    1. 脚本方式测试运行： python collector.py result.json collector.state
-    2. 服务方式运行：twistd -y collectord.py
+    1. 下载 collector.py collectord.py 文件到安装目录
+    2. 脚本方式测试运行： python collector.py result.json collector.state
+    3. 服务方式运行：twistd -y collectord.py
 
 ### 状态查看
 
-    1. 服务状态查看：telnet 127.0.0.1 31000
-    2. cat collector.state
+    1. 通过twistd服务启动时，服务状态查看：telnet 127.0.0.1 31000
+    2. 命令行或服务启动是，爬虫状态查看：cat collector.state
   
 ### 运行结果
 
