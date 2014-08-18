@@ -9,13 +9,12 @@ DHTCrawler
 
 ### collector.py dht网络爬虫脚本
 
-    抓取dht网络的磁力链接
-    使用 libtorrent 库开发
+    抓取dht网络的磁力链接，使用 libtorrent 库开发。
 
 ### collectord.py dht爬虫服务监控程序
 
-    启动并监控dht爬虫进程，在爬虫进程退出后重启启动爬虫
-    使用 twisted 开发
+    启动并监控dht爬虫进程，在爬虫进程退出后重启启动爬虫，使用 twisted 开发。
+    
 
 
 安装和使用方法
