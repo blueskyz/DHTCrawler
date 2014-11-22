@@ -20,9 +20,8 @@ DHTCrawler
 --------------
 
 ### 运行环境
-
     **运行的机器要能被外网访问，用来接收dht网络节点的信息，使用vps即可**
-    
+
     1. linux 服务器
     2. python 2.7.3
     3. 安装 libtorrent 的 python 绑定库
