@@ -14,7 +14,6 @@ DHTCrawler
 ### collectord.py dht爬虫服务监控程序
 
     启动并监控dht爬虫进程，在爬虫进程退出后重启启动爬虫，使用 twisted 开发。
-    
 
 
 安装和使用方法
@@ -22,12 +21,13 @@ DHTCrawler
 
 ### 运行环境
 
+    **运行的机器要能被外网访问，用来接收dht网络节点的信息，使用vps即可**
+    
     1. linux 服务器
     2. python 2.7.3
     3. 安装 libtorrent 的 python 绑定库
     4. 安装 twisted 网络库
     5. 开放防火墙的对应端口段，目前默认的是 32900--32920 (20是工作的p2p客户端数量)
-    **运行的机器要能被外网访问，用来接收dht网络节点的信息，使用vps即可**
 
 ### 运行方法
 
@@ -43,4 +43,3 @@ DHTCrawler
 ### 运行结果
 
     result.json 是收集的磁力链接结果文件，json格式，key是资源的info hash，value是资源的热度
-
