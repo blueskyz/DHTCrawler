@@ -57,7 +57,7 @@ class Collector(object):
 
     def _backup_result(self):
         back_file = '%s_%s' % (time.strftime('%Y%m%d'), self._result_file)
-        if not os.path.isfile(back_file):
+        if os.path.isfile(self._result_file) and not os.path.isfile(back_file):
             os.system('cp %s %s_%s' %
                       (self._result_file,
                        time.strftime('%Y%m%d'),
