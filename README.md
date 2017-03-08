@@ -43,3 +43,10 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 ### 运行结果
 
     result.json 是收集的磁力链接结果文件，json格式，key是资源的info hash，value是资源的热度
+    
+    
+### python Linux 初学者入门群（ qq 群号：278529278 ）
+    * 一群工程师组建的面向初学者的 python Linux 学习群
+    * 有问题可以加群问，这样效率更高
+    * 非商业性质，拒绝广告，只接收真正想学这方面技术的朋友，交流学习
+    * 申请请说明来自 github
