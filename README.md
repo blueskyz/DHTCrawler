@@ -9,11 +9,11 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 
 ### collector.py dht网络爬虫脚本
 
-    抓取dht网络的磁力链接，使用 libtorrent 的python绑定库开发。
+    抓取dht网络的磁力链接，使用 libtorrent 的python绑定库开发
 
 ### collectord.py dht爬虫服务监控程序
 
-    启动并监控dht爬虫进程，在爬虫进程退出后重启启动爬虫，使用 twisted 开发。
+    启动并监控dht爬虫进程，在爬虫进程退出后重启启动爬虫，使用 twisted 开发
 
 
 安装和使用方法
@@ -43,7 +43,7 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 ### 运行结果
 
     result.json 是收集的磁力链接结果文件，json格式，key是资源的info hash，value是资源的热度
-    
+
 <br>
 
 ### 初学者入门群
