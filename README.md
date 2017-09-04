@@ -37,7 +37,7 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 
 ### 状态查看
 
-  1. 通过twistd服务启动时，服务状态查看：telnet 127.0.0.1 31000
+  1. 通过 twistd 服务启动时，服务状态查看：telnet 127.0.0.1 31000
   2. 命令行或服务启动是，爬虫状态查看：cat collector.state
   
 ### 运行结果
