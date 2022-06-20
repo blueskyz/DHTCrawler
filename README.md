@@ -64,5 +64,5 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
   * 欢迎大家交流电商开发的技术，经验
   * QQ群：226220067 加群请说明来自 github
 
-![image](https://user-images.githubusercontent.com/1860564/174646268-8cfe046d-1937-46c1-9e26-a4424501f158.png){:width="400px"}
+![image](https://user-images.githubusercontent.com/1860564/174646268-8cfe046d-1937-46c1-9e26-a4424501f158.png){:height="50%" width="50%"}
 
