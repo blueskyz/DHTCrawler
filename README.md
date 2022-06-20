@@ -46,9 +46,9 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 
 <br>
 
-## Go 开发的电商平台
+## Go 开发的电商平台，欢迎合作
 
-技术：golang、vue开发、小程序开发
+技术：golang、vue、微信小程序开发
 
   * 一群工程师开发的B2B、B2C电商平台
   * 目前客户百万级别月GMV
@@ -61,7 +61,7 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 
 ### golang 电商开发技术交流群
 
-  * 欢迎大家交流电商开发的技术，经验
+  * 欢迎大家交流电商开发技术
   * QQ群：226220067 加群请说明来自 github
 
 <img src="https://user-images.githubusercontent.com/1860564/174646268-8cfe046d-1937-46c1-9e26-a4424501f158.png" width = "300" align=center />
