@@ -46,7 +46,7 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
 
 <br>
 
-<span style="display: none;">
+<!--
 ## Go 开发的电商平台，欢迎合作
 
 技术：golang、vue、微信小程序开发
@@ -66,4 +66,4 @@ python 编写的DHT Crawler 网络爬虫，抓取DHT网络的磁力链接。
   * QQ群：226220067 加群请说明来自 github
 
 <img src="https://user-images.githubusercontent.com/1860564/174646268-8cfe046d-1937-46c1-9e26-a4424501f158.png" width = "300" align=center />
-</span>
+-->
